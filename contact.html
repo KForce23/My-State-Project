@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="olympia.html">Olympia</a></li>
+            <li><a href="leavenworth.html">Leavenworth</a></li>
+            <li><a href="snoqualmie.html">Snoqualmie</a></li>
+            <li><a href="seattle.html">Seattle</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <form id="contactForm">
+l address for verification purposes and a text box that allows the user to ask a question. -->
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="confirmEmail">Confirm Email Address:</label>
+            <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm your email address" required>
+
+            <div id="emailError" class="error"></div>
+
+            <label for="question">Your Question:</label>
+            <textarea id="question" name="question" placeholder="Enter your question" rows="4"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <img src="./assets/OrcaLogo.png" alt="Orca Logo">
+        <p>&copy; 2024 My State Web Project.</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+
+</html>
+<!--The Img2Go AI image generator is a general tool for producing images, graphics, and text. The usage does not constitute copyright or any form of intellectual property of the generated image. https://www.img2go.com/ai-art-generator#:~:text=The%20Img2Go%20AI%20image%20generator,property%20of%20the%20generated%20image.-->
